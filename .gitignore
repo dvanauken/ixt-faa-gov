@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+# Build output directories (TypeScript)
+dist/
+build/
+lib/
+
+# TypeScript declaration files
+*.d.ts
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Testing coverage & reports
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.* 
+
+# Temporary
+tmp/
+temp/
+
+# Optional: lock files if you prefer not to commit them
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+result.*.txt
